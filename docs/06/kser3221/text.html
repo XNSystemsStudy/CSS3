@@ -4,17 +4,115 @@
 <meta charset="UTF-8">
 <title>CSS Typography</title>
 <link href="reset.css" rel="stylesheet">
+<link href="at-font-face.css" rel="stylesheet">
 <style>
-	.final {
-		position: absolute;
-		opacity: 0.4;
-	}
+html {
+  font-family: PTSans, Arial, sans-serif;
+  background-color: #e8f5ff;
+}
+
+body {
+  background-image: url('images/bg_body.png');
+  background-repeat: repeat-x;
+}
+
+.main {
+	border: 4px solid white;
+	width: 740px;
+	height: 787px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background-image: url('images/bg_banner.jpg');
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: "Arial Black", Arial, Helvetica, sans-serif;
+	color: orange;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+h1 strong {
+	color: white;
+	font-size: 150px;
+	line-height: 100%;
+	margin-right: -188px;
+}
+
+h2 {
+	font-family: "Hoefler Text", Garamond, Times, serif;
+	font-size: 35px;
+	line-height: 40px;
+	color: blue;
+	border-bottom: 1px solid gray;
+	margin-top: 25px;
+}
+
+h2 + p {
+	font-weight: bold;
+	font-size: 16px;
+	color: gray;
+	margin: 8px 0 17px 50px;
+}
+
+h2 + p strong {
+	font-size: 16px;
+	color: navy;
+	text-transform: uppercase;
+	margin-left: 11px;
+}
+
+ul {
+	float: right;
+	margin: 60px 0px 20px 3px;
+	width: 170px;
+	padding-left: 60px;
+}
+
+li {
+	font-size: 15px;
+	margin-bottom: 7px;
+	color: #248ede;
+}
+
+h3 {
+	font-size: 19px;
+	line-height: 42px;
+	text-transform: uppercase;
+	color: orange;
+}
+
+h3 + p {
+	text-align: left;
+	margin-left: 150px;
+	margin-right: 50px;
+	line-height: 22px;
+	font-size: 15px;
+}
+
+h3 + p:first-line {
+	color: gray;
+	font-weight: bold;
+}
+
+p em {
+	font-style: italic;
+}
+
+p strong {
+	font-weight: bold;
+}
+
+p + h3 {
+	margin-top: 15px;
+}
 </style>
 
 </head>
 <body>
 <div class="main">
-	<img class="final" src="final.png"></img>
 	<h1><strong>CSS</strong> The Missing Manual</h1>
 	<h2>Exploring Typographic Possibilities</h2>
 	<p>november 30 <strong>Rod Dibble</strong></p>
