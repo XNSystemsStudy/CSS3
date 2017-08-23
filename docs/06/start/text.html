@@ -5,16 +5,26 @@
 <title>CSS Typography</title>
 <link href="reset.css" rel="stylesheet">
 <style>
-	.final {
+	.finalcapture {
 		position: absolute;
 		opacity: 0.4;
+		z-index: -1;
+		width: 768px;
+		height: 1024px;
+		background: url(../finalcapture.png);
+		background-size: 768px;
+	}
+	.main {
+		position: relative;
+		width: 768px;
+		margin: 0 auto;
 	}
 </style>
 
 </head>
 <body>
 <div class="main">
-	<img class="final" src="final.png"></img>
+	<div class="finalcapture"></div>
 	<h1><strong>CSS</strong> The Missing Manual</h1>
 	<h2>Exploring Typographic Possibilities</h2>
 	<p>november 30 <strong>Rod Dibble</strong></p>
