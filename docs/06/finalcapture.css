@@ -1,0 +1,19 @@
+#finalcapture {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 768px;
+    height: 1024px;
+    opacity: 0.4;
+    z-index: -100;
+    background: gray url(finalcapture.png) no-repeat;
+    background-size: 768px;
+}
+#capturecontrols {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-Index: 999999;
+}
