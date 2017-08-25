@@ -28,3 +28,37 @@ table {
 	border-spacing: 0;
 } 
 /* end reset browser styles */
+.main {
+	font-family: PTSans, Arial, sans-serif;
+}
+.main h1 { 
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Arial Black", Arial, Helvetica, sans-serif;
+	color: orange;
+}
+.main h1 strong {
+	font-size: 150px;
+	margin-left: 14px;
+	line-height: 1.05em;
+	text-shadow: 4px 3px 6px rgba(0,0,0,.5);
+	margin-right: -1.25em;
+	color: white;
+}
+.main h2 {
+	font-family: "Hoefler Text", Garamond, Times, serif;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgb(37,76,143);
+	margin-top: 14px;
+	margin-left: 19px;
+}
+.main .date {
+	margin-top: 9px;
+	margin-left: 65px;
+}
+.main .date strong {
+	color: rgb(32,126,191);
+    text-transform: uppercase;
+    margin-left: 8px;
+}

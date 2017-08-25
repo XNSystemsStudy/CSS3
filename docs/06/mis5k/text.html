@@ -5,19 +5,31 @@
 <title>CSS Typography</title>
 <link href="reset.css" rel="stylesheet">
 <style>
-	.final {
+	.finalcapture {
 		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
 		opacity: 0.4;
+		z-index: -100;
+		width: 768px;
+		height: 1024px;
+		background: url(../finalcapture.png);
+		background-size: 768px;
+	}
+	.main {
+		width: 768px;
+		margin: 0 auto;
 	}
 </style>
 
 </head>
 <body>
+<div class="finalcapture"></div>
 <div class="main">
-	<img class="final" src="final.png"></img>
 	<h1><strong>CSS</strong> The Missing Manual</h1>
 	<h2>Exploring Typographic Possibilities</h2>
-	<p>november 30 <strong>Rod Dibble</strong></p>
+	<p class="date">november 30 <strong>Rod Dibble</strong></p>
 	<ul>
 		<li>Lorem Ipsum</li>
 		<li>Reprehenderit qui in ea</li>
