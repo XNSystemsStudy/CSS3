@@ -5,16 +5,77 @@
 <title>CSS Typography</title>
 <link href="reset.css" rel="stylesheet">
 <style>
-	.final {
+	.finalcapture {
 		position: absolute;
-		opacity: 0.4;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		z-index: -100;
+		width: 768px;
+		height: 1024px;
+		background: url(../finalcapture.png);
+		background-size: 768px;
+	}
+	.main {
+		width: 768px;
+		margin: 0 auto;
+	}
+	.main h1 {
+		font-size: 40px;
+		color: orange;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+	}
+	.main h1 strong {
+		font-size: 160px;
+		color: white;
+		text-shadow: 5px 5px 10px black;
+		letter-spacing: 0.2em;
+		margin: 0 -220px 0 15px;	
+	}
+	.main h2 {
+		font-size: 30px;
+		margin: -15px 0 0 15px;	
+		letter-spacing: 0.15em;
+	}
+	.main p {
+		font-size: 15px;
+		margin: 10px 0 0 65px;	
+	}
+	.main p strong {
+		font-size: 15px;
+		color: blue;
+		margin: 0 0 0 18px;	
+	}
+	.main ul {
+		display: block;
+		color: hsla(250, 100%, 50%, .4);
+		float: right;
+		margin: 75px 30px 0 0;
+		line-height: 1.5;
+	}
+	.main h3 {
+		font-size: 22px;
+		color: orange;
+		margin: 25px 0 0 15px;	
+	}
+	.main h3 + p {
+		margin: 10px 0 0 165px;	
+		line-height: 1.6;
+	}
+	.main h3 + p em {
+		font-style: italic;
+	}
+	.main h3 + p strong {
+		color: black;
+		font-weight: bold;
 	}
 </style>
 
 </head>
 <body>
+<div class="finalcapture"></div>
 <div class="main">
-	<img class="final" src="final.png"></img>
 	<h1><strong>CSS</strong> The Missing Manual</h1>
 	<h2>Exploring Typographic Possibilities</h2>
 	<p>november 30 <strong>Rod Dibble</strong></p>
