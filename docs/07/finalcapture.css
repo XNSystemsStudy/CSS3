@@ -1,0 +1,20 @@
+#finalcapture {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 760px;
+    height: 1017px;
+    opacity: 0.5;
+    z-index: 9999;
+    background: gray url(finalcapture.png) no-repeat;
+    background-size: 760px 1017px;
+}
+#capturecontrols {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-Index: 999999;
+}
