@@ -35,6 +35,75 @@ table {
 	border-spacing: 0;
 } 
 /* end reset browser styles */
+#article {
+	margin-left: 330px; 
+	width: 760px;
+}
+#banner {
+	margin-top: 40px;
+}
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 39.5px;
+	color: rgb(133,161,16);
+	background-color: rgb(226,235,180);
+	padding: 9px 0px 2px 45px;
+    letter-spacing: 1px;
+	text-transform: uppercase;
+
+}
+p {
+	margin-top: 20px;
+	font-family: "Gulim";
+    font-weight: bold;
+    font-size: 13.9px;
+	line-height: 19px;
+}
+.div {
+	float: right;
+	margin: 11px 9px 10px 0px;
+    width: 270px;
+	background-color: rgb(250,235,199);
+    border: 1px dotted rgb(252,101,18);
+    border-top: 20px solid rgb(252,101,18);
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 10px 15px 13px 20px;
+}
+.div h2 {
+	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+	color: rgb(252,101,18);
+	font-size: 22px;
+    letter-spacing: -1px;
+	padding: 0px;
+    margin: 0px;
+	border: 0px;
+}
+.div p {
+	margin-top: 6px;
+	font-family: "Gulim";
+	line-height: 19px;
+	font-size: 14px;
+}
+h2 {
+	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+    color: rgb(249,107,24);
+    border-top: 2px dotted rgb(141,165,22);
+    border-bottom: 2px dotted rgb(141,165,22);
+	padding-top: 9px;
+    padding-bottom: 7px;
+    margin-top: 15px;
+    font-size: 19px;
+    font-weight: bold;
+}
+h2 + p {
+	margin-top: 6px;
+	line-height: 19px;
+}
+.last {
+	margin-top: 0px;
+    font-size: 14px;
+}
 
 </style>
 </head>
@@ -45,15 +114,17 @@ table {
 
   <h1>The Amazing World of CSS</h1>
   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p> 
-  <h2>NOTE</h2>
-<p class="note">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+  <div class="div">
+  	<h2>NOTE</h2>
+  	<p class="note">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+  </div>
   <h2>Who Knew CSS Had Such Power?</h2>
   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.</p>
 <h2>Not Me!</h2>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
   <h2>Me Neither!</h2>
   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
-  <p>Copyright 2010, The Lorem Ipsum Corporation</p>
+  <p class="last">Copyright 2010, The Lorem Ipsum Corporation</p>
 
 <script src="../finalcapture.js" type="text/javascript"></script>
 </body>
