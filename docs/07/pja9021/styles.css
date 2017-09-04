@@ -1,0 +1,55 @@
+html {
+    background-color: rgb(253,248,171);
+}
+
+body {
+    width: 760px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: 3px solid rgb(75,75,75);
+    box-shadow: 0 0 15px 5px rgba(44,82,100,.75);
+    background-color: white;
+}
+
+h1 {
+    background-color: rgb(226,235,180);
+    color: rgb(133,161,16);
+    font-weight: normal;
+    font-size: 2.75em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0px -20px 20px -20px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;        
+}
+
+h2 {
+    color: rgb(249,107,24);
+    font-size: 1.5em;
+    font-family: "Arial Narrow", Arial, Helvetica, sans-serif; 
+    border-bottom: 2px dotted rgb(141,165,22);
+    border-top: 2px dotted rgb(141,165,22);
+    padding: 5px 5px 5px 0px;
+    overflow: hidden;
+}
+p {
+    margin-bottom: 10px;
+}
+.note {
+    border : none;
+    width: 30%;
+    margin: 10px;
+    float: right;
+    background-color: rgb(250,235,199);
+    border: 1px dotted rgb(252,101,18);
+    border-top: 20px solid rgb(252,101,18);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    padding: 10px 20px;
+}
+
+.note h2 {
+    border: none;
+}
