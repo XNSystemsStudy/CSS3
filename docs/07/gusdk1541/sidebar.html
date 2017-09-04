@@ -19,11 +19,23 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+	background-color: rgb(253, 248, 171);
+}
 body {
 	line-height: 1.2;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border: 3px solid black;
+	width: 760px;
+	height: auto;
+	padding: 0 15px;
+	background-color: white;
+	box-shadow: 0 0 15px 5px rgba(44,82,100,.75);
 }
 ol { 
-	padding-left: 1.4em;
 	list-style: decimal;
 }
 ul {
@@ -33,8 +45,64 @@ ul {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-} 
+}
+
+#banner {
+	margin-top: 15px;
+
+}
+
+h1, h2, p {
+	text-align: left;
+	margin: auto;
+}
+
+h1 {
+	color: rgb(133, 161, 16);
+	font-weight: normal;
+	font-size: 45px;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: rgb(226, 235, 180);
+	text-transform: uppercase;
+	margin:-1px -15px 20px -15px;
+	padding: 5px 15px 0px 15px;
+	letter-spacing: 0.4px;
+}
+h2 {
+	color: rgb(249,107,24);
+	font-size: 1.5em;
+	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+	margin-top: 14px;
+	border-top: 2px dotted rgb(141,165,22);
+border-bottom: 2px dotted rgb(141,165,22);
+overflow: auto;
+padding: 5px 0;
+margin-bottom: 5px;
+}
+
+.sidebar {
+	float: right;
+	width: 229px;
+	height: 320px;
+	padding: 0 20px;
+	border:  1px dashed rgb(252,101,18);
+	border-top: 20px solid rgb(252,101,18);
+	border-radius: 10px;
+	margin: 10px 9px 10px 10px;
+	background-color: rgb(250,235,199);
+	box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+
+.sidebar h2 {
+	border: none;
+	margin-top: 9px;
+	margin-bottom: 3.5px;
+	padding: 0;
+}
+
 /* end reset browser styles */
+
 
 </style>
 </head>
@@ -45,9 +113,11 @@ table {
 
   <h1>The Amazing World of CSS</h1>
   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p> 
+ <div class="sidebar">
   <h2>NOTE</h2>
 <p class="note">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-  <h2>Who Knew CSS Had Such Power?</h2>
+</div> 
+<h2>Who Knew CSS Had Such Power?</h2>
   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.</p>
 <h2>Not Me!</h2>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
