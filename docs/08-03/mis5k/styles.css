@@ -34,6 +34,7 @@ table {
 	margin-right: auto;
 	margin-left: auto;
     overflow: hidden; /* contain float */
+	background: url(images/bg_main.jpg) no-repeat;
 }
 
 .main {
@@ -46,7 +47,12 @@ table {
 .announcement {
 	margin-right: 600px;
 	margin-left: 20px;
-	
+	margin-top: 115px;
+	background: url(images/scroll_top.jpg) no-repeat top center,
+		url(images/scroll_bottom.jpg) no-repeat center bottom,
+		url(images/scroll_middle.jpg) no-repeat center;
+	padding-top: 70px;
+	padding-bottom: 60px;
 }
 
 .copyright {
@@ -60,6 +66,10 @@ table {
   border-right: none;
 }
 
+.banner {
+    margin-top: 47px;
+/*	background-image: url(images/bg_main.jpg); */
+}
 
 .banner h1 {
 	font: normal 48px Georgia, "Times New Roman", Times, serif;
@@ -69,8 +79,12 @@ table {
 
 .main h2 {
 	font: 24px Tahoma, Geneva, sans-serif;
-	margin-bottom: 15px;
 	font-family: Tahoma, Geneva, sans-serif;
+	margin-bottom: 14px;
+    background-image: url(images/underline.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+	padding-bottom: 9px;
 }
 .main p {
 	font: 14px Tahoma, Geneva, sans-serif;
@@ -89,5 +103,14 @@ table {
 }
 .announcement ul {
 	font: 14px Tahoma, Geneva, sans-serif;
+	margin-left: 30px;
+	line-height: 17px;
+	padding-right: 30px;
+	list-style-type: none;
 }
-
+.announcement ul li {
+	margin-bottom: 10px;
+	background: url(images/bullet.png) no-repeat;
+	background-position: 0px 4px;
+	padding-left: 25px;
+}
