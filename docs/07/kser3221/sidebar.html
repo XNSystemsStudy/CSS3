@@ -21,6 +21,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
 	line-height: 1.2;
+	margin: 0 auto;
+	width: 760px;
 }
 ol { 
 	padding-left: 1.4em;
@@ -34,6 +36,66 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 } 
+
+#banner {
+	margin-top: 37px;
+}
+h1 {
+ font-family: Georgia, "Times New Roman", Times, serif;
+ font-size: 45px;
+ line-height: 60px;
+ text-transform: uppercase;
+ text-align: center;
+ color: rgb(133,161,16);
+ background-color: rgb(226,235,180);
+ margin-bottom: 19px;
+}
+
+h2 {
+	margin-top: 16px;
+	padding: 6px 0;
+	font-size: 21px;
+	font-weight: bold;
+	border-top: 2px dotted rgb(226,235,180);
+	border-bottom: 2px dotted rgb(226,235,180);
+	color: orange;
+	overflow: hidden;
+}
+
+p {
+	margin-top: 5px;
+	line-height: 19px;
+}
+
+h1 + p + h2 {
+	float: right;
+	width: 234px;
+	border-width: 20px 2px 0 2px;
+	border-style: solid dashed none dashed;
+	border-color: orange;
+	border-radius: 15px 15px 0 0;
+	margin-top: 11px;
+	margin-left: 10px;
+	margin-right: 9px;
+	padding: 12px 15px 0 18px;
+	box-shadow: 5px -2px 5px -1px lightgray;
+	background-color: blanchedalmond;
+}
+
+h1 + p + h2 + p {
+	float: right;
+	clear: right;
+	width: 228px;
+	border-width: 0 2px 1px 2px;
+	border-style: none dashed dotted dashed;
+	border-color: orange;
+	border-radius: 0 0 15px 15px;
+	margin: 0px 9px 10px 10px;
+	padding: 0 24px 12px 15px;
+	word-break:break-all;
+	box-shadow: 5px 5px 5px 0px lightgray;
+	background-color: blanchedalmond;
+}
 /* end reset browser styles */
 
 </style>
