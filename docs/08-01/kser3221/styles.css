@@ -59,7 +59,23 @@ p {
 	clear: both;
 }
 
-img {
+figure {
 	float: right;
-	margin: 10px;
+	width: 242px;
+}
+img {
+	margin: 15px 10px 0 10px;
+	padding: 10px;
+	border: 1px solid black;
+	background-color: #CCC;
+}
+figcaption {
+	width: auto;
+	font-weight: bold;
+	font-size: 10.5px;
+	text-align: center;
+	margin: 0 10px 5px 10px;
+	padding: 5px;
+	border: 1px dashed black;
+	background-color: #e6f3ff;
 }
