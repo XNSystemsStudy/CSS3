@@ -64,7 +64,7 @@ table {
 .banner h1 {
 	font: normal 48px Georgia, "Times New Roman", Times, serif;
 	text-align: right;
-  color: #272D32;
+  color: #272D32;  
 }
 
 .main h2 {
@@ -91,3 +91,45 @@ table {
 	font: 14px Tahoma, Geneva, sans-serif;
 }
 
+body {
+	background-image: url("images/bg_page.png");
+	background-repeat:repeat-x;
+}
+
+.wrapper {
+	background-image:url("images/bg_main.jpg");
+	background-repeat: no-repeat;
+	background-color: white;
+}
+
+.banner {
+	margin-top : 48px;
+}
+
+.main h2 {
+	background-image: url("images/underline.png");
+	background-repeat:no-repeat;
+	background-position: left bottom;
+	padding-bottom: 7px;
+}
+/*url(images/scroll_top.jpg) no-repeat center top,
+url(images/scroll_bottom.jpg) no-repeat center bottom,
+url(images/scroll_middle.jpg) repeat-y center top*/
+.announcement {
+	background-image : url("images/scroll_top.jpg"), url("images/scroll_bottom.jpg"), url("images/scroll_middle.jpg");
+	background-repeat: no-repeat,no-repeat,repeat-y;
+	background-position: center top,center bottom,center top;
+	padding: 70px 0 60px 0;
+	margin-top: 115px;
+}
+
+.announcement li {
+	list-style: none;
+	background-image: url(images/bullet.png);
+	background-repeat: no-repeat;
+	background-position: 0 4px;
+	padding-left: 25px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	margin-right: 40px;
+}

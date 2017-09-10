@@ -73,3 +73,23 @@ p {
 	border-top: 1px dashed #999;
 	clear: both;
 }
+
+figure {
+	display:inline-block;
+	width:210px;
+	vertical-align: top;
+	margin: 0px 10px 10px 10px;
+}
+
+figcaption {
+	text-align: center;
+	margin-top: 10px;
+	font: 1.1em/normal Arial, Helvetica, sans-serif;
+}
+
+img {
+	border: 1px solid #666;
+	background-color: #FFF;
+	padding: 4px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+}
