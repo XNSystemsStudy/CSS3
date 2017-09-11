@@ -14,6 +14,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
 	line-height: 1.2;
+	background-image: url(images/bg_page.png);
+	background-repeat: repeat-x;
+	background-color: #FFF;
 }
 ol { 
 	padding-left: 1.4em;
@@ -31,6 +34,9 @@ table {
 
 .wrapper {
 	width: 960px;
+	background-color: #FFF;
+	background-image: url(images/bg_main.jpg);
+	background-repeat: no-repeat;
 	margin-right: auto;
 	margin-left: auto;
     overflow: hidden; /* contain float */
@@ -43,10 +49,13 @@ table {
 	padding-top: 25px;
 }
 
+.main div {
+	background-image: url(images/underline.png);
+}
+
 .announcement {
 	margin-right: 600px;
-	margin-left: 20px;
-	
+	margin-left: 20px;	
 }
 
 .copyright {
@@ -60,6 +69,9 @@ table {
   border-right: none;
 }
 
+.banner {
+	margin-top: 46px;
+}
 
 .banner h1 {
 	font: normal 48px Georgia, "Times New Roman", Times, serif;
@@ -67,10 +79,25 @@ table {
   color: #272D32;
 }
 
+.announcement {
+    background: url(images/scroll_top.jpg) no-repeat center top, url(images/scroll_bottom.jpg) no-repeat center bottom, url(images/scroll_middle.jpg) repeat-y center top;
+    padding: 70px 0 60px 0;
+    margin-top: 115px;
+}
+
+.announcement div {
+	background-image: url(images/underline.png);
+	height: 10px;
+}
+
 .main h2 {
 	font: 24px Tahoma, Geneva, sans-serif;
 	margin-bottom: 15px;
 	font-family: Tahoma, Geneva, sans-serif;
+    background-image: url(images/underline.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-bottom: 7px;
 }
 .main p {
 	font: 14px Tahoma, Geneva, sans-serif;
@@ -87,7 +114,18 @@ table {
 	letter-spacing: 1px;
 	margin-bottom: 18px;
 }
+
 .announcement ul {
 	font: 14px Tahoma, Geneva, sans-serif;
 }
 
+.announcement li {
+    list-style: none;
+    background-image: url(images/bullet.png);
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
